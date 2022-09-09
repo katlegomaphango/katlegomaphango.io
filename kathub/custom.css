@@ -1,14 +1,20 @@
 * {
  margin: 0;
  padding: 0;
+ height: 100%;
+}
+body{
+  overflow-y: hidden;
 }
 
 .container {
  width: 100vw;
  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("./IMG_19700101_190646.jpg");
+ background-attachment: fixed;
  background-position: center;
- background-size: cover;
- height: 100vh;
+ background-size: auto 100%;
+ background-repeat: repeat;
+ /* height: 100vh; */
 }
 
 .nav {
@@ -103,6 +109,7 @@
  }
 
  .nav>.nav-links {
+  visibility: hidden;
   position: fixed;
   display: block;
   width: 100%;
@@ -150,9 +157,14 @@
  letter-spacing: 2px;
 }
 
-.content span{
+.content .par1{
  color: #ff7200;
  font-size: 65px;
+}
+
+.content .launch{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .content .par{
@@ -195,8 +207,20 @@ button:hover{
     padding-left: 80px;
     letter-spacing: 1px;
   }
-  .content span{
+  .content .par1{
     font-size: 50px;
+  }
+  .content .launch{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 40px;
+  }
+  .content .sentence1{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .content .par2{
+    display: none;
   }
   .content .par{
     padding-left: 80px;
@@ -242,4 +266,69 @@ button:hover{
 }
 .mail a:hover{
   color: #ff7200;
+}
+
+@media (max-width:350px){
+  .content{
+    margin-top: 5px;
+  }
+  .content h1{
+    font-size: 30px;
+    padding-left: 40px;
+    letter-spacing: 0.6px;
+  }
+  .content .par1{
+    font-size: 30px;
+  }
+  .content .launch{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+  }
+  .content .sentence1{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .content .par2{
+    display: none;
+  }
+  .content .par{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    letter-spacing: 0.3px;
+    line-height: 15px;
+  }
+  .content button{
+    width: 110px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  .icons {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 30px;
+  }
+  
+  .icons a{
+    margin-left: 5px;
+  }
+
+  .mail {
+    margin-top: 50px;
+    text-align: left;
+    text-transform: lowercase;
+  }
+  
+  .mail a{
+    text-decoration: none;
+    color: white;
+  }
+  .mail a:hover{
+    color: #ff7200;
+  }
+  
 }
