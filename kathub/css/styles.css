@@ -153,3 +153,41 @@ body{
     height: 100%;
 }
 /* end hero content */
+
+/* tablet Hero/Banner media query */
+@media screen and (max-width: 946px) {
+    /* banner > nav */
+    .nav_header {
+        font-size: 1.7rem;
+    }
+    .nav_links {
+        gap: 0;
+    }
+    .nav_links a {
+        padding: 0.5rem;
+    }
+    .nav_links a:hover {
+        border-radius: 1rem;
+    }
+    /* banner > content */
+    .hero > .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5.5rem;
+    }
+    .hero_content{
+        gap: 1rem;
+    }
+    .hero_tag {
+        font-size: 4rem;
+    }
+    .hero_content-body {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+    .hero_btns {
+        margin-top: 3rem;
+    }
+}
