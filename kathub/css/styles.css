@@ -501,3 +501,52 @@ input, textarea {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+/* ====================== footer ======================== */
+.footer {
+    background: url('../images/IMG_19700101_190646.jpg');
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    color: var(--font-clr-white);
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer_container>div h4{
+    margin-bottom: 1.2rem;
+}
+.footer li {
+    list-style: none;
+}
+.footer a {
+    color: var(--font-clr-white);
+    text-decoration: none;
+}
+.footer_1 {
+    margin: 0 0 2rem;
+}
+.footer ul li {
+    margin-bottom: 0.7rem;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer-socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.footer_4 p {
+    margin-bottom: 0.7rem;
+}
+.footer-copy{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--font-clr-white);
+}
