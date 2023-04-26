@@ -391,6 +391,27 @@ body{
     border: 1px solid var(--font-clr-gold);
 }
 
+/* tablet projects media query */
+@media screen and (max-width: 946px) {
+    .all-projects {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .project{
+        width: 20rem;
+        padding-bottom: 1rem;
+    }
+    .project_img {
+        width: 20rem;
+    }
+    .project_info-links {
+        margin-top: 2rem;
+    }
+    .project_info-links a {
+        padding: 1rem;
+    }
+}
+
 /* ====================== contact ======================== */
 .contact{
     /* background: var(--bg-dark-black); */
