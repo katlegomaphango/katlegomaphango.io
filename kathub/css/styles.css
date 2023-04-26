@@ -502,6 +502,25 @@ input, textarea {
     font-weight: bold;
 }
 
+/* tablet contact media query */
+@media screen and (max-width: 946px) {
+    .contact {
+        padding: 1.5rem;
+        gap: 1.5rem;
+        margin-top: 17rem;
+        height: auto;
+    }
+    .contact_aside {
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+    .contact_form {
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+}
+
 /* ====================== footer ======================== */
 .footer {
     background: url('../images/IMG_19700101_190646.jpg');
