@@ -1,3 +1,5 @@
+import { projects } from "./data.js"
+
 const toggleBtn = document.querySelector('[class="nav_toggle"]')
 const menuList = document.querySelector('[class="nav_links"]')
 const menuIcon = document.querySelector('.fa-solid')
