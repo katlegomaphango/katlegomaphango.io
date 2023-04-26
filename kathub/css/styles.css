@@ -550,3 +550,20 @@ input, textarea {
     padding: 1.2rem 0;
     border-top: 1px solid var(--font-clr-white);
 }
+
+/* tablet footer media query */
+@media screen and (max-width: 946px) {
+    .footer_container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* mobile footer media query */
+@media screen and (max-width: 425px) {
+    .footer_container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+}
+/* ====================== END: footer ======================== */
