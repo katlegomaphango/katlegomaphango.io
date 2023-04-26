@@ -22,7 +22,6 @@ toggleBtn.addEventListener('click', menuHandler)
 
 for(let i = 0; i < projects.length; i++) {
     const fragment = document.createDocumentFragment()
-    console.log('hey')
     const project = document.createElement('article')
     project.classList.add('project')
 
