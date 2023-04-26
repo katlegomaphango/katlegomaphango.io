@@ -1,0 +1,7 @@
+:root {
+    --font-clr-gold: #ff7200;
+    --font-clr-white: #efefef;
+    --font-family: Arial, Helvetica, sans-serif;
+    --bg-dark-black: rgba(0, 0, 0, 0.3);
+    --transition: all 0.4s ease-in;
+}
