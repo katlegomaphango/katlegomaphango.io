@@ -411,6 +411,19 @@ body{
         padding: 1rem;
     }
 }
+/* mobile about media query */
+@media screen and (max-width: 425px) {
+    .all-projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project {
+        width: auto;
+    }
+    .project_img {
+        width: 100%;
+    }
+}
+/* ====================== END: projects ======================== */
 
 /* ====================== contact ======================== */
 .contact{
