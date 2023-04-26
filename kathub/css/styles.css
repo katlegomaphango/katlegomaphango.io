@@ -358,6 +358,41 @@ body{
         display: none;
     }
 }
+/* mobile about media query */
+@media screen and (max-width: 425px) {
+    .about {
+        grid-template-columns: none;
+        gap: 4rem;
+    }
+    .about-left{
+        margin: 0 auto;
+    }
+    .about_img {
+        height: 18rem;
+    }
+    .about_img-bg {
+        width: 15rem;
+        height: 19.5rem;
+        top: -0.75rem;
+    }
+    .about img {
+        height: 18rem;
+    }
+    .about_img-lg {
+        bottom: 0;
+    }
+    .about-right {
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        gap: 1rem;
+    }
+    .about-right p {
+        margin: 0 auto;
+    }
+}
+/* ====================== END: about =========================== */
 
 /* ====================== projects ============================= */
 .projects_container {
