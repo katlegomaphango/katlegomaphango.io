@@ -5,3 +5,17 @@
     --bg-dark-black: rgba(0, 0, 0, 0.3);
     --transition: all 0.4s ease-in-out;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    backdrop-filter: blur(8px);
+    background-image: url('../images/IMG_19700101_190646.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
